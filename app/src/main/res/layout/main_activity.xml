@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bgg"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="211dp"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/millogo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:fontFamily="@font/font"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#6F4E37"
+        android:onClick="startGame"
+        app:strokeWidth="2dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:fontFamily="@font/font"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#6F4E37"
+        android:onClick="startGame"
+        app:strokeWidth="2dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:fontFamily="@font/font"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#6F4E37"
+        android:onClick="startGame"
+        app:strokeWidth="2dp"/>
+</LinearLayout>
